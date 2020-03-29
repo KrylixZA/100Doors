@@ -1,0 +1,6 @@
+# JetBrains Rider
+src/.idea/
+
+# Build directories
+src/*/bin/
+src/*/obj/
