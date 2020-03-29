@@ -9,7 +9,7 @@ jobs:
 
     # Setup build variables
     env:
-    - working-directory: ./src
+      working-directory: ./src
   
     steps:
     - uses: actions/checkout@v2
