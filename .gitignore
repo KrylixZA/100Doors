@@ -1,6 +1,9 @@
 # JetBrains Rider
 src/.idea/
 
+# Visual Studio
+src/.vs/
+
 # Build directories
 src/*/bin/
 src/*/obj/
