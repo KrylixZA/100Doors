@@ -3,13 +3,13 @@ name: Build
 # Build triggers
 on: [push, pull_request]
 
-# Setup build variables
-env:
-- sourceDir: ./src
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    # Setup build variables
+    env:
+    - sourceDir: ./src
   
     steps:
     - uses: actions/checkout@v2
